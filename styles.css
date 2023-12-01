@@ -138,7 +138,7 @@ nav {
     color: var(--white);
     cursor: pointer;
     /* display: none; */
-}
+}                   
 
 .nav__actions {
     flex: 1;
@@ -152,4 +152,72 @@ nav {
     font-size: 1.2rem;
     color: var(--white);
     cursor: pointer;
+}
+
+.header__container {
+    text-align: center;
+    color: var(--white);
+}
+
+
+.header__contianer h1 {
+    margin-bottom: 1rem;
+    font-size: 4.5rem;
+    font-weight: 600;
+    font-family: var(--header-font);
+}
+
+.header__container p {
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+}
+
+.header__container form {
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+    padding-block: .25rem;
+    padding-inline: 1.25rem .25rem;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--white);
+    border-radius: 5rem;
+}
+
+.header__container input {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: transparent;
+}
+
+.header__container input::placeholder {
+    color: var(--white);
+}
+
+.header__container button {
+    padding: 11px 12px;
+    font-size: 1.25rem;
+    outline: none;
+    border: none;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.header__container a {
+    display: inline-block;
+    padding: 0 12px;
+    font-size: 3rem;
+    color: var(--white);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--white);
+    border-radius: 100%;
 }
