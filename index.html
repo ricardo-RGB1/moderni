@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="styles.css">
     <title>Moderni</title> 
 </head>
@@ -73,7 +77,7 @@
         </div>
     </section>
 
-    <section class="offer__section" id="offer">
+    <section class="offer__container" id="offer">
         <div class="offer__grid__top">
             <img src="assets/offer-1.jpg" alt="offer " />
             <img src="assets/offer-2.jpg" alt="offer " />
@@ -94,7 +98,184 @@
         </div>
     </section>
 
+    <section class="section__container craft__container" id="craft">
+        <div class="craft__content">
+            <h2 class="section__header">Craft Your Space</h2>
+            <p class="section__subheader">
+                We offer a wide range of modern furniture and decor to help you create a space that fits your lifestyle.
+            </p>
+                <button class="btn">Explore</button>
+        </div>
+        <div class="craft__image">
+            <div class="craft__image__content">
+                <img src="assets/craft-1.png" alt="craft">
+                <p>Nordic Chair</p>
+                <h4>$65.00</h4>
+            </div>
+            <a href=""><i class="ri-add-line"></i></a>
+        </div>
+        <div class="craft__image">
+            <div class="craft__image__content">
+                <img src="assets/craft-2.png" alt="craft">
+                <p>Wingback Chair</p>
+                <h4>$50.00</h4>
+            </div>
+            <a href=""><i class="ri-add-line"></i></a>
+        </div>
+        <div class="craft__image">
+            <div class="craft__image__content">
+                <img src="assets/craft-3.png" alt="craft">
+                <p>Accent Chair</p>
+                <h4>$70.00</h4>
+            </div>
+            <a href=""><i class="ri-add-line"></i></a>
+        </div>
+    </section>
+
+    <section class="section__container modern__container" id="modern">
+        <div class="modern__image">
+            <img src="assets/dot-bg.png" alt="bg" class="modern__bg">
+            <img src="assets/modern-1.jpg" alt="modern" class="modern__img-1">
+            <img src="assets/modern-2.jpg" alt="modern" class="modern__img-2">
+            <img src="assets/modern-3.jpg" alt="modern" class="modern__img-3">
+        </div>
+        <div class="modern__content">
+            <h2 class="section__header">
+                Modern Furniture
+            </h2>
+            <p class="section__subheader">
+                We offer a wide range of modern furniture and decor to help you create a space that fits your lifestyle.  
+            </p>
+            <div class="modern__grid">
+                <div class="modern__card">
+                    <span><i class="ri-checkbox-blank-circle-line"></i></span>
+                    <p>
+                        Our furniture is made with the highest quality materials and craftsmanship.
+                    </p>
+                </div>
+                <div class="modern__card">
+                    <span><i class="ri-checkbox-blank-circle-line"></i></span>
+                    <p>
+                        We stay at the forefront of modern design trends to bring you the latest styles.
+                    </p>
+                </div>
+                <div class="modern__card">
+                    <span><i class="ri-checkbox-blank-circle-line"></i></span>
+                    <p>
+                        Modern furniture is designed to be functional, comfortable, and stylish.
+                    </p>
+                </div>
+                <div class="modern__card">
+                    <span><i class="ri-checkbox-blank-circle-line"></i></span>
+                    <p>
+                        We take care of all the details so you can focus on what matters most - living your life!
+                    </p>
+                </div>
+            </div>
+            <button class="btn">Explore</button>
+        </div>
+    </section>
+
+    <section class="section__container testimonial__container" id="testimonial">
+        <h2 class="section__header">Testimonials</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="testimonial__card">
+                        <p>
+                            "I love my new chair! It's so comfortable and stylish. The color is perfect for my living room. Thank you Moderni!"
+                        </p>
+                        <img src="assets/profile-pic-1.jpg" alt="testimonial">
+                        <h4>Sam William</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial__card">
+                        <p>
+                            I wanted to revamp my office space with a more clean and modern look. Moderni helped me find the perfect furniture for my needs. I couldn't be happier with the results!            
+                        </p>
+                        <img src="assets/profile-pic-2.jpg" alt="testimonial">
+                        <h4>Michelle Ann</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial__card">
+                        <p>
+                            The attention to form and detail is what makes Moderni stand out from other furniture stores. Also, I love how they have a wide range of styles to choose from. I will definitely be shopping here again!
+                        </p>
+                        <img src="assets/profile-pic-3.jpg" alt="testimonial">
+                        <h4>John D'souza</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial__card">
+                        <p>
+                            What sets Moderni apart is their passion for enhancing the lives of their customers through design and function. They are always looking for new ways to improve their products and services. I highly recommend them!
+                        </p>
+                        <img src="assets/profile-pic-4.jpg" alt="testimonial">
+                        <h4>David Anderson</h4>
+                    </div>
+                </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+    </section>
+
+    <section class="section__container blog__container" id="blog">
+        <h2 class="section__header">Recent Blog</h2>
+        <div class="blog__grid">
+            <div class="blog__card">
+                <img src="assets/blog-1.jpg" alt="blog">
+                <h4>Mastering Modern Minimalism</h4>
+                <p><span>by</span> DesignIcon <span>on</span> October 3, 2023</p>
+            </div>
+            <div class="blog__card">
+                <img src="assets/blog-2.jpg" alt="blog">
+                <h4>The Fusion of Art and Function</h4>
+                <p><span>by</span> Chic <span>on</span> October 9, 2023</p>
+            </div>
+            <div class="blog__card">
+                <img src="assets/blog-3.jpg" alt="blog">
+                <h4>Eco-Friendly Designs</h4>
+                <p><span>by</span> HomeHarmony <span>on</span> October 11, 2023</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__content">
+                <h4>SUBSCRIBE TO GET  THE LATEST NEWS ABOUT US</h4>
+                <p>
+                    Subscribe to our newsletter and get exclusive deals you won't find anywhere else straight to your inbox!
+                </p>
+            </div>
+            <div class="footer__form">
+                <form action="/">
+                    <input type="text" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="section__container footer__bar">
+            <div class="footer__logo">
+                <h4><a href="#">Moderni</a></h4>
+                <p>Copyright @ 2023 Moderni. All rights reserved</p>
+            </div>
+            <ul class="footer__nav">
+                <li class="footer__link"><a href="#">About</a></li>
+                <li class="footer__link"><a href="#">Partnership</a></li>
+                <li class="footer__link"><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
-</html> 
+</html>
