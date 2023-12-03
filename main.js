@@ -1,10 +1,29 @@
-/**
+const menuBtn = document.getElementById("menu-btn");
+const navLinks = document.getElementById("nav-links");
+const menuBtnIcon = document.querySelector("i"); 
+ 
+// Toggles the nav menu open and closed when the menu button is clicked.
+menuBtn.addEventListener("click", (e) => {
+    navLinks.classList.toggle('open');
+    const isOpen = navLinks.classList.contains('open');
+    menuBtnIcon.setAttribute('class', isOpen ? 'ri-close-line' : 'ri-menu-line')
+});
+
+// Closes the nav menu when a link is clicked.
+navLinks.addEventListener("click", (e) => {
+    navLinks.classList.remove('open');
+    menuBtnIcon.setAttribute('class', 'ri-menu-line');
+});
+ 
+ /**
  * Options for scroll reveal animation.
  * @typedef {Object} ScrollRevealOption
  * @property {string} distance - The distance the element will move during the animation.
  * @property {string} origin - The starting position of the element.
  * @property {number} duration - The duration of the animation in milliseconds.
  */
+
+
  const scrollRevealOption = {
     distance: '50px',
     origin: 'bottom',
